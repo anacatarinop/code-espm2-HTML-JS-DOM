@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1</title>
+</head>
+<body>
+    <div>
+        <h3>Criação de jogos</h3>
+        <div>
+            <label for="nome">Nome:</label> <br>
+            <input type="text" id="nome">
+        </div> <br>
+        <div>
+            <label for="descricao">Descrição:</label> <br>
+            <input type="text" id="descricao">
+            <div id="descricaoErrorMsg" style="color: red;" hidden></div>
+        </div> <br>
+        <div>
+            <label for="produtora">Produtora:</label> <br>
+            <input type="text" id="produtora">
+            <div id="produtoraErrorMsg" style="color: red;" hidden></div>
+        </div> <br>
+        <div>
+            <label for="ano">Ano:</label> <br>
+            <input type="number" id="ano">
+            <div id="anoErrorMsg" style="color: red;" hidden></div>
+        </div> <br>
+        <div>
+            <label for="idadeMinima">Idade minima:</label> <br>
+            <input type="number" id="idadeMinima">
+            <div id="idadeMinimaErrorMsg" style="color: red;" hidden></div>
+        </div> <br>
+        <div>
+            <button onclick="cadastrar()">Enviar</button>
+        </div> <br>
+        
+        <div id="sucessoMsg" style="color: green;" hidden></div>
+        <div id="errorMsg" style="color: red;" hidden></div>
+    </div>
+
+    <script src="./js/validador.js"></script>
+    <script src="./js/service.js"></script>
+
+</body>
+</html>

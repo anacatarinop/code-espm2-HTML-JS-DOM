@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 3</title>
+</head>
+<body>
+    <div>
+        <label for="pontuacao-minima">Pontuação Mínima:</label> <br>
+        <input id="pontuacao-minima" type="number" value="100">
+    </div> <br>
+    <div>
+        <div>Competidor 1</div>
+        <label for="comp1-p1">Nota da prova 1:</label>
+        <input id="comp1-p1" type="number" max="100" min="0"> <br>
+        <label for="comp1-p2">Nota da prova 2:</label>
+        <input id="comp1-p2" type="number" max="100" min="0">
+    </div> <br>
+
+    <div>
+        <div>Competidor 2</div>
+        <label for="comp2-p1">Nota da prova 1:</label>
+        <input id="comp2-p1" type="number" max="100" min="0"> <br>
+        <label for="comp2-p2">Nota da prova 2:</label>
+        <input id="comp2-p2" type="number" max="100" min="0">
+    </div> <br>
+
+    <div>
+        <div>Competidor 3</div>
+        <label for="comp3-p1">Nota da prova 1:</label>
+        <input id="comp3-p1" type="number" max="100" min="0"> <br>
+        <label for="comp3-p2">Nota da prova 2:</label>
+        <input id="comp3-p2" type="number" max="100" min="0">
+    </div> <br>
+
+    <div>
+        <div>Competidor 4</div>
+        <label for="comp4-p1">Nota da prova 1:</label>
+        <input id="comp4-p1" type="number" max="100" min="0"> <br>
+        <label for="comp4-p2">Nota da prova 2:</label>
+        <input id="comp4-p2" type="number" max="100" min="0">
+    </div> <br>
+
+    <div>
+        <div>Competidor 5</div>
+        <label for="comp5-p1">Nota da prova 1:</label>
+        <input id="comp5-p1" type="number" max="100" min="0"> <br>
+        <label for="comp5-p2">Nota da prova 2:</label>
+        <input id="comp5-p2" type="number" max="100" min="0">
+    </div> <br>
+
+    <div>
+        <div>Competidor 6</div>
+        <label for="comp6-p1">Nota da prova 1:</label>
+        <input id="comp6-p1" type="number" max="100" min="0"> <br>
+        <label for="comp6-p2">Nota da prova 2:</label>
+        <input id="comp6-p2" type="number" max="100" min="0">
+    </div> <br>
+
+    <div>
+        <div>Competidor 7</div>
+        <label for="comp7-p1">Nota da prova 1:</label>
+        <input id="comp7-p1" type="number" max="100" min="0"> <br>
+        <label for="comp7-p2">Nota da prova 2:</label>
+        <input id="comp7-p2" type="number" max="100" min="0">
+    </div> <br>
+
+    <div>
+        <div>Competidor 8</div>
+        <label for="comp8-p1">Nota da prova 1:</label>
+        <input id="comp8-p1" type="number" max="100" min="0"> <br>
+        <label for="comp8-p2">Nota da prova 2:</label>
+        <input id="comp8-p2" type="number" max="100" min="0">
+    </div> <br>
+
+    <button onclick="calcular()">Calcular</button> <br><br>
+
+    <div id="resultado" hidden>
+        <h5>Competidores aprovados:</h5>
+        <div id="competidores-apv" style="color: green;"></div>
+    </div>
+    <div id="msgError" style="color: red;" hidden></div>
+
+    <script src="./js/validador.js"></script>
+</body>
+</html>
